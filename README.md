@@ -77,7 +77,9 @@ Before running Nmap or any scanner, Conpot logs normal startup messages and inte
 - No external sessions except internal Conpot checks
 
 **Example excerpt:**
-![Baseline Output](images/baseline_output.png)
+<div align="center">
+  <img src="images/before_scanning.png" alt="Image 0" width="900" />
+</div>
 
 ### Interaction After Running Nmap (Scanner Activity)
 After running an Nmap scan, Conpot generated numerous logs showing connection attempts, malformed packets, and protocol negotiation failures, typical when generic scanners probe ICS services they do not fully understand.
@@ -87,16 +89,15 @@ After running an Nmap scan, Conpot generated numerous logs showing connection at
 - Continuous S7Comm connections
 - ENIP activity (scanner probing CIP/EthernetIP port)
 
-![Nmap Scan Activity](images/nmap_activity.png)
+<div align="center">
+  <img src="images/nmap_scanning.png" alt="Image 1" width="900" />
+</div>
 
 **Example Log Entries:**
-```
-2025-12-05 23:44:10,231 New S7 connection from 127.0.0.1:43656. (d49bf788-a169-4b76-b45a-703e2431e733)
-2025-12-05 23:44:10,231 Received unknown COTP TPOU before handshake: 0
-2025-12-05 23:44:15,229 New Modbus connection from 127.0.0.1:42276. (024ef26-fa58-4427-ae5d-7e2c25dc6bf5)
-2025-12-05 23:44:15,231 New S7 connection from 127.0.0.1:43670. (d49bf788-a169-4b76-b45a-703e2431e733)
-2025-12-05 23:44:20,231 New S7 connection from 127.0.0.1:48304. (d49bf788-a169-4b76-b45a-703e2431e733)
-```
+<div align="center">
+  <img src="images/after_scanning0.png" alt="Image 2" width="900" />
+  <img src="images/after_scanning1.png" alt="Image 3" width="900" />
+</div>
 
 These entries represent exactly what an attacker's reconnaissance tooling looks like, containing connection IP address and session identifiers.
 
