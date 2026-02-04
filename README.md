@@ -90,13 +90,13 @@ After running an Nmap scan, Conpot generated numerous logs showing connection at
 - ENIP activity (scanner probing CIP/EthernetIP port)
 
 <div align="center">
-  <img src="images/nmap_scanning.png" alt="Image 1" width="900" />
+  <img src="images/nmap_scanning.png" alt="Image 1" width="800" />
 </div>
 
 **Example Log Entries:**
 <div align="center">
-  <img src="images/after_scanning0.png" alt="Image 2" width="900" />
-  <img src="images/after_scanning1.png" alt="Image 3" width="900" />
+  <img src="images/after_scanning0.png" alt="Image 2" width="700" />
+  <img src="images/after_scanning1.png" alt="Image 3" width="700" />
 </div>
 
 These entries represent exactly what an attacker's reconnaissance tooling looks like, containing connection IP address and session identifiers.
