@@ -113,10 +113,7 @@ tcp port 5020 or tcp port 10201 or tcp port 8800 or udp port 16100 or udp port 4
 ```
 ├── README.md
 ├── docs/               # Project documentation
-├── logs/               # Sample Conpot logs
-├── captures/           # Wireshark .pcap files
-├── configs/            # Conpot configuration files
-└── scripts/            # Helper scripts for setup and analysis
+├── images/             # Project images
 ```
 
 ---
