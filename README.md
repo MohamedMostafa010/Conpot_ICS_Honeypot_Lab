@@ -146,6 +146,7 @@ Wireshark PCAP file uploaded in the pcaps/ directory.
 ├── README.md
 ├── docs/               # Project documentation
 ├── images/             # Project images
+├── pcaps/              # Wireshark Captures
 ```
 
 ---
