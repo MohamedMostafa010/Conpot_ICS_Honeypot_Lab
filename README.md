@@ -124,6 +124,14 @@ Wireshark PCAP file uploaded in the pcaps/ directory.
 
 ---
 
+## 📄 Report Preview
+
+<div align="center">
+
+<img src="docs/Project_GIF.gif" alt="Project Report Preview" width="550"/>
+
+</div>
+
 ## 🧠 Insights & Conclusions
 
 ### What Attackers See:
@@ -167,14 +175,9 @@ Wireshark PCAP file uploaded in the pcaps/ directory.
 ---
 
 ## 🙌 Acknowledgements
-This project was conducted as part of a cybersecurity research initiative to better understand ICS reconnaissance and improve defensive strategies in critical infrastructure.
+This project was conducted as part of a university cybersecurity research initiative to better understand ICS reconnaissance techniques and improve defensive strategies in critical infrastructure environments.
 
 ---
 
 ## 📄 License
-This project is shared for educational and research purposes. Please use responsibly and in accordance with applicable laws.
-**Fixed issues:**
-- Removed the redundant introductory text
-- Fixed code block formatting
-- Cleaned up the structure
-- Maintained proper markdown syntax
+This project is licensed under the MIT License - see the LICENSE file for details.
